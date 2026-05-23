@@ -1,0 +1,21 @@
+{
+  "name": "Tebak Nama Live",
+  "short_name": "TebakNama",
+  "description": "Live interactive TikTok-style Minecraft gacha name guessing app.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#222222",
+  "theme_color": "#00ff00",
+  "icons": [
+    {
+      "src": "themes/Minecraft/images/11075047.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "themes/Minecraft/images/11075047.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

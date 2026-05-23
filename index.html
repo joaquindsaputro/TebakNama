@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#00ff00">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="themes/Minecraft/images/11075047.png">
+    <title>TikTok Live Interactive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        
+        <div id="top-area" class="area">
+            <div id="info-area">
+                <h3>🎁 CARA MAIN</h3>
+                <ul>
+                    <li>🌹 Mawar = Normal Spin</li>
+                    <li>🍩 Donat = Rare Spin</li>
+                </ul>
+                <div class="cta-box">
+                    <h3>👑 VIP SYARAT</h3>
+                    <p>Kirim Paus/Singa untuk masuk VIP Wall!</p>
+                </div>
+            </div>
+            <div id="cam-area">
+                <div id="cam-frame"></div>
+            </div>
+        </div>
+
+        <div id="running-text-area" class="area">
+            <div id="running-text">SELAMAT DATANG DI LIVE STREAM! KETIK NAMA KAMU DI BAWAH...</div>
+        </div>
+
+        <div id="middle-area" class="area">
+            <div class="panels">
+                <div id="vip-wall">
+                    <h3>👑<br/>VIP</h3>
+                    <div id="vip-list"></div>
+                </div>
+                <div id="regular-wall">
+                    <div id="regular-list"></div>
+                </div>
+            </div>
+            <div id="input-container">
+                <input type="text" id="name-input" autocomplete="off">
+            </div>
+        </div>
+
+        <div id="bottom-area" class="area">
+            <div id="gacha-output">
+                <img id="gacha-image" src="" alt="Gacha Result" style="display: none;">
+                <h1 id="gacha-text"></h1>
+            </div>
+        </div>
+        
+        <div id="confetti-container"></div>
+    </div>
+
+    <div id="settings-btn">⚙️</div>
+    <div id="settings-modal" class="hidden">
+        <div class="modal-content">
+            <h2>Theme Settings</h2>
+            <select id="theme-selector">
+                <option value="minecraft">Minecraft</option>
+                <option value="primbon">Primbon / Khodam</option>
+            </select>
+            <button id="save-settings">Save & Reload</button>
+            <button id="close-settings">Close</button>
+        </div>
+    </div>
+
+    <script src="database.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
